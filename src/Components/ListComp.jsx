@@ -16,7 +16,6 @@ const ListComp = (props) => {
       <li style={{ textDecoration: line ? "line-through" : "none" }}>
         {props.text}
       </li>
-      ;
     </div>
   );
 };
